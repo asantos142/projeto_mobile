@@ -26,7 +26,7 @@ while True:
     if input_usuario in menu_opcoes:
         break
     else:
-        print('OPCAO INVALIDA')
+        print('OPCAO_INVALIDA')
 
 if input_usuario == '1':
     lista.append(input())
